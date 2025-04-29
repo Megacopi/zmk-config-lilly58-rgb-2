@@ -39,7 +39,7 @@
 
         tmux_split_vertically {
             bindings = <&tmux_split_vertically>;
-            key-positions = <49 35 23>;
+            key-positions = <45 46 47>;
         };
 
         better_task_switcher {
