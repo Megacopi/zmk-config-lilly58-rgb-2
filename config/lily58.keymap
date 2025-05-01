@@ -56,6 +56,16 @@
             bindings = <&kp GRAVE>;
             key-positions = <13 14>;
         };
+
+        task_switcher_forward {
+            bindings = <&kp LG(TAB)>;
+            key-positions = <14 15 16>;
+        };
+
+        task_switcher_backwards {
+            bindings = <&kp LS(LG(TAB))>;
+            key-positions = <26 27 28>;
+        };
     };
 
     macros {
