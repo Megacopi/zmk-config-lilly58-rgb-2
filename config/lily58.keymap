@@ -51,6 +51,11 @@
             bindings = <&better_task_switcher_shifted>;
             key-positions = <52 15>;
         };
+
+        grave_replacement {
+            bindings = <&kp GRAVE>;
+            key-positions = <13 14>;
+        };
     };
 
     macros {
