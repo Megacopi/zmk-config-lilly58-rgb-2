@@ -42,19 +42,9 @@
             key-positions = <45 46 47>;
         };
 
-        better_task_switcher {
-            bindings = <&better_task_switcher>;
-            key-positions = <52 16>;
-        };
-
-        better_task_switcher_shifted {
-            bindings = <&better_task_switcher_shifted>;
-            key-positions = <52 15>;
-        };
-
         grave_replacement {
             bindings = <&kp GRAVE>;
-            key-positions = <13 14>;
+            key-positions = <16 17>;
         };
 
         task_switcher_forward {
@@ -65,6 +55,46 @@
         task_switcher_backwards {
             bindings = <&kp LS(LG(TAB))>;
             key-positions = <26 27 28>;
+        };
+
+        backspace {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <20 21>;
+        };
+
+        copy {
+            bindings = <&kp LC(C)>;
+            key-positions = <39 40>;
+        };
+
+        paste {
+            bindings = <&kp LC(V)>;
+            key-positions = <40 41>;
+        };
+
+        undo_ctrl_z {
+            bindings = <&kp LC(Z)>;
+            key-positions = <37 38>;
+        };
+
+        cut_ctrl_x {
+            bindings = <&kp LC(X)>;
+            key-positions = <38 39>;
+        };
+
+        enter {
+            bindings = <&kp ENTER>;
+            key-positions = <32 31>;
+        };
+
+        tab {
+            bindings = <&kp TAB>;
+            key-positions = <27 28>;
+        };
+
+        shift_tab {
+            bindings = <&kp TAB>;
+            key-positions = <27 26>;
         };
     };
 
