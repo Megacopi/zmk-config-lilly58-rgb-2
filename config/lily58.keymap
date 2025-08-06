@@ -47,14 +47,9 @@
             key-positions = <16 17>;
         };
 
-        task_switcher_forward {
-            bindings = <&kp LG(TAB)>;
+        tmux_zoom_toggle {
+            bindings = <&tmux_zoom_toggle>;
             key-positions = <14 15 16>;
-        };
-
-        task_switcher_backwards {
-            bindings = <&kp LS(LG(TAB))>;
-            key-positions = <26 27 28>;
         };
 
         backspace {
@@ -137,6 +132,14 @@
             bindings = <&macro_press>, <&kp LGUI>, <&macro_tap>, <&kp LS(TAB)>;
 
             label = "BETTER_TASK_SWITCHER_SHIFTED";
+        };
+
+        tmux_zoom_toggle: tmux_zoom_toggle {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_tap>, <&kp LC(A) &kp Z>;
+
+            label = "TMUX_ZOOM_TOGGLE";
         };
     };
 
